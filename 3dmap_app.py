@@ -6,7 +6,6 @@ Created on Mon Aug 17 15:37:14 2026
 """
 
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
 # 3D Land Survey / Bathymetry Elevation Mapper — Streamlit Edition
 # Ported from the original Tkinter desktop tool.
 #
@@ -22,7 +21,7 @@ import plotly.graph_objects as go
 import matplotlib.cm as cm
 from pyproj import Transformer
 
-st.set_page_config(page_title="3D Land Survey Elevation Mapper", layout="wide")
+st.set_page_config(page_title="3D Land Survey Elevation Mapper", page_icon="🌊", layout="wide")
 
 LINKEDIN_URL = "https://www.linkedin.com/in/joyal-joseph-76674a23b/"
 
@@ -209,7 +208,7 @@ st.sidebar.markdown(
 # ----------------------------------------------------------------------
 # Main area
 # ----------------------------------------------------------------------
-st.title("3D Land Survey Elevation Mapper")
+st.title("🌊 3D Land Survey Elevation Mapper")
 
 if df is None:
     st.info("**Easting   Northing   Depth**  \n(whitespace or comma separated)")
