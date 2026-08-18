@@ -21,7 +21,7 @@ import plotly.graph_objects as go
 import matplotlib.cm as cm
 from pyproj import Transformer
 
-st.set_page_config(page_title="3D Land Survey Elevation Mapper", page_icon="🌊", layout="wide")
+st.set_page_config(page_title="3D Survey Elevation Mapper", page_icon="🌊", layout="wide")
 
 LINKEDIN_URL = "https://www.linkedin.com/in/joyal-joseph-76674a23b/"
 
