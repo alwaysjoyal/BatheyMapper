@@ -208,7 +208,7 @@ st.sidebar.markdown(
 # ----------------------------------------------------------------------
 # Main area
 # ----------------------------------------------------------------------
-st.title("🌊 3D Land Survey Elevation Mapper")
+st.title("🌊 3D Survey Elevation Mapper")
 
 if df is None:
     st.info("**Easting   Northing   Depth**  \n(whitespace or comma separated)")
